@@ -1,0 +1,31 @@
+export const ApiRoutes = {
+    CREATE_REQUEST:{
+        path:'/request',
+        authenticate:true
+    },
+    LOGIN:{
+        path:'/user/login',
+        authenticate:false
+    },
+    GET_ALL_USERS:{
+        path:'/user/all',
+        authenticate:true
+    },
+    CREATE_USER:{
+        path:'/user/create',
+        authenticate:true
+    },
+    GET_COUNT:{
+        path:'/request/count',
+        authenticate:true
+    },
+    ASSIGN:{
+        path:'/request/assign',
+        authenticate:true
+    },
+    RESOLVE:{
+        path:'/request/resolve',
+        authenticate:true
+    }
+
+}
